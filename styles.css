@@ -9,7 +9,7 @@ body {
     justify-content: center;
     height: 100vh;
     margin: 0;
-    margin-top: 70px;
+    margin-top: 50px;
     text-align: left;
 }
 
@@ -46,6 +46,7 @@ img {
     height: 150px;
     margin-right: 30px;
     transition: transform 0.4s ease; 
+    border-radius: 0; 
 }
 
 .profile-pic:hover {
@@ -65,8 +66,8 @@ img {
 }
 
 #socials img:hover {
-    transform: scale(1.1); 
-    transition: transform 0.2s ease, filter 0.2s ease; 
+    transform: scale(1.17); 
+    transition: transform 0.2s ease;
 }
 
 #description {
@@ -78,6 +79,26 @@ img {
     font-weight: bold;
     margin-top: 30px;
     margin-bottom: 7px;
+}
+
+.projects-container {
+    display: flex;
+    justify-content: flex-start;
+    margin-top: 20px;
+}
+
+.projects {
+    width: 35%; 
+}
+
+.project-explanations {
+    width: 65%; 
+    padding-left: 10px;
+    border-left: none;
+}
+
+.indent-text, .project-explanations p {
+    margin: 0;
 }
 
 .indent-text {
