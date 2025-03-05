@@ -70,10 +70,6 @@ img {
     transition: transform 0.2s ease;
 }
 
-#description {
-    text-align: left;
-}
-
 .section-header {
     font-size: 1.3em;
     font-weight: bold;
