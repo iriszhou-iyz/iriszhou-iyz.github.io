@@ -5,22 +5,48 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Iris Zhou's Personal Website</title>
     <link rel="stylesheet" href="styles.css">
-    <!-- Add a link to a CSS file for styling -->
 </head>
 <body>
-    <header>
-        <h1>Iris Zhou</h1>
-    </header>
-    <section id="profile">
-        <img src="profile.jpg" alt="Profile Picture" width="150" height="150">
-        <!-- Placeholder for profile picture -->
-    </section>
-    <section id="socials">
-        <a href="https://linkedin.com/in/iriszhou-iyz" target="_blank"><img src="linkedin-icon.png" alt="LinkedIn" width="30" height="30"></a>
-        <a href="https://github.com/iriszhou-iyz" target="_blank"><img src="github-icon.png" alt="GitHub" width="30" height="30"></a>
-    </section>
-    <section id="description">
-        <p>Welcome to my personal website! I am Iris Zhou, a passionate developer and tech enthusiast. I love creating web applications and exploring new technologies. Feel free to connect with me through my social media links above!</p>
-    </section>
+    <div class="container">
+        <div class="profile-header">
+            <img src="media/profile.JPG" alt="Profile Picture" class="profile-pic">
+            <div class="profile-info">
+                <h1>Iris Zhou</h1>
+                <div id="socials">
+                    <a href="https://github.com/iriszhou-iyz" target="_blank"><img src="media/github-icon.png" alt="GitHub"></a>
+                    <a href="https://linkedin.com/in/iriszhou-iyz" target="_blank"><img src="media/linkedin-icon.png" alt="LinkedIn"></a>
+                    <a href="mailto:iriszhou.iyz@gmail.com"><img src="media/email-icon.jpg" alt="Email"></a>
+                </div>
+            </div>
+        </div>
+        <section id="description">
+            <p>
+                hi, i'm iris! i'm interested in building cool things with machine learning + software engineering.
+                i like learning new technologies, making knowledge accessible to all, and using computation to make a real-world impact.<br>
+                <span class="spacer"></span>
+                i'm currently a junior studying Computer Science + Astrophysics @ UC Berkeley 🧸
+                previously, i was an SDE intern @ AWS, conducted data analysis on Mercury's magnetosphere 
+                @ the <a href="https://www.ssl.berkeley.edu/" target="_blank">Space Sciences Lab</a>, 
+                and benchmarked NeRFs @ <a href="https://droppgroup.xyz/" target="_blank">droppGroup</a>.
+            </p>
+            <p class="section-header">
+                ⟢ what i'm up to:
+            </p>
+            <p class="indent-text">
+                💡 <span class="text">learning about optimization, ml, & computer security</span><br>
+                📓 <span class="text">teaching data structures @ <a href="https://sp25.datastructur.es" target="_blank">cs 61b</a></span><br>
+                🚀 <span class="text">vp of membership @ <a href="https://launchpad.studentorg.berkeley.edu" target="_blank">launchpad</a></span><br>
+                🌱 <span class="text">writing content worksheets @ <a href="https://csmentors.studentorg.berkeley.edu/#/" target="_blank">computer science mentors</a></span>
+            </p>
+            <p class="section-header">
+                ⟢ some projects i've worked on:
+            </p>
+            <p class="indent-text">
+                🎧 <span class="text"><a href="https://callaunchpad.github.io/lofi-bytes-app/" target="_blank">lofi bytes</a></span><br>
+                👾 <span class="text"><a href="https://github.com/callaunchpad/neural-worlds-game" target="_blank">neural worlds</a></span><br>
+                🫧 <span class="text"><a href="https://aura-analyzer-web.vercel.app/" target="_blank">aura analyzer</a></span>
+            </p>
+        </section>
+    </div>
 </body>
 </html>
