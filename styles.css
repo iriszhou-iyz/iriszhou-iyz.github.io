@@ -79,8 +79,14 @@ img {
 
 .projects-container {
     display: flex;
-    justify-content: space-between;
-    align-items: flex-start;
+    flex-direction: column;
+    margin-top: 8px;
+}
+
+.project-row {
+    display: grid;
+    grid-template-columns: 200px 1fr;
+    align-items: start;
 }
 
 .projects {
